@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
 
 /* GET about page. */
 router.get('/about/:id', function(req, res, next) {
-  res.render('about.html', { title: 'Blossom Academy' });
+  res.render('about/about.html', { title: 'Blossom Academy' });
 });
 
 /* GET hired page. */
