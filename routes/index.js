@@ -13,8 +13,8 @@ router.get('/about', function(req, res, next) {
 });
 
 /* GET hired page. */
-router.get('/coding-bootcamp', function(req, res, next) {
-  res.render('index.html', { title: 'Blossom Academy' });
+router.get('/coding-bootcamp/:id', function(req, res, next) {
+  res.render('coding-bootcamp/index.html', { title: 'Blossom Academy' });
 });
 
 module.exports = router;
