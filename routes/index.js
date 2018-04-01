@@ -14,7 +14,7 @@ router.get('/about', function(req, res, next) {
 
 /* GET hired page. */
 router.get('/coding-bootcamp', function(req, res, next) {
-  res.render('index', { title: 'Blossom Academy' });
+  res.render('index.html', { title: 'Blossom Academy' });
 });
 
 module.exports = router;
