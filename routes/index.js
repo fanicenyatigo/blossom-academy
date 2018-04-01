@@ -8,8 +8,8 @@ router.get('/', function(req, res, next) {
 
 
 /* GET about page. */
-router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'Blossom Academy' });
+router.get('/about/:id', function(req, res, next) {
+  res.render('about.html', { title: 'Blossom Academy' });
 });
 
 /* GET hired page. */
