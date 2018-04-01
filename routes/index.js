@@ -12,4 +12,9 @@ router.get('/about', function(req, res, next) {
   res.render('about', { title: 'Blossom Academy' });
 });
 
+/* GET hired page. */
+router.get('/coding-bootcamp', function(req, res, next) {
+  res.render('coding-bootcamp', { title: 'Blossom Academy' });
+});
+
 module.exports = router;
